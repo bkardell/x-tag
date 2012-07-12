@@ -168,7 +168,12 @@
 		},
 		
 		tagCheck: function(element){
-			return element.tagName ? xtag.tags[element.tagName.toLowerCase()] : false;
+		    var a, b;
+		    if(element.tagName){ 
+		    	a = xtag.tags[element.tagName.toLowerCase()]; 
+		    	if(!a){ a = xtag.tags["[is=" + element.getAttribute('is') + "]"]; }
+		    }
+		    return a || false;
 		},
 		
 		getOptions: function(element){
