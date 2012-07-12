@@ -1,4 +1,4 @@
-X-Tag - Custom Elements for Modern Browsers
+X-Tag - Custom Elements for Modern Browsers (is= allowing version)
 =====
 
 Based on the current W3 Web Components [draft][1], X-Tag enables the custom element portion of the proposal.
@@ -17,6 +17,6 @@ Developers
 To get started hacking on X-Tag, first check out the code and be sure you also
 clone the elements submodule:
 
-    git clone --recursive https://github.com/mozilla/x-tag
+    git clone --recursive https://github.com/bkardell/x-tag
 
 Open up demo.html in your browser to see how things work.
